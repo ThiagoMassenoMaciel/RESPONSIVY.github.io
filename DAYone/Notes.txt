@@ -1,0 +1,14 @@
+it will execute line by line above and the next above : If just exist something at the same  selector and proporty after the @media queries - nothing will change 
+
+
+
+@media all and (){}
+equal 
+
+@media (){}
+"     " print         - everyone who will print this document itl will change the css acordding what actually are on the braces by @media print(){ }
+
+
+
+i learn in this video (https://youtu.be/yU7jJ3NbPdA?si=r2-TmJextUQCqYAI)  
+watch this (https://youtu.be/2KL-z9A56SQ?si=bUea62pSLL-t1PIn) as soon as possible and correct things on my portifolio

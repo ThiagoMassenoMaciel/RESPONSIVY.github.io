@@ -1,0 +1,81 @@
+body{
+  color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+  font-size: 4rem;
+}
+
+@media all and ( max-width: 500px){
+  /* Anything less than   500px will change css to this*/
+  
+  body{
+    color: blue;
+  }
+}
+
+
+@media ( max-width: 500px){
+  /* Anything less than   500px will change css to this*/
+  
+  body{
+    color: blue;
+  }
+}
+
+@media (orientation: landscape) {
+  /* landscape  it means the pixels from width == height */
+  /* Anything less than   landscape that body will change css to this*/
+  
+  body{
+    color: green;
+  }
+}
+
+@media (orientation: portrait) {
+  /*  portrait  it means the pixels from width < height   */
+  /* Anything less than   landscape that body will change css to this*/
+  
+  .subtitle{
+    color: cyan;
+  }
+}
+
+
+
+/*   Estes aqui eu n entendi - ver mais outra outra pois ja passou mais de 20 minutos */
+
+/*
+
+          @media (orientation: landscape) {
+            /* landscape  it means the pixels from width == height */
+            /* Anything less than   landscape that body will change css to this
+            
+            body{
+              color: green;
+            }
+          }
+
+          
+          @media (orientation: landscape) and (max-width: 500px) {
+            /* landscape  it means the pixels from width == height */
+            /* Anything less than   landscape that body will change css to this
+            
+            body{
+              color: green;
+            }
+          }
+
+          @media (orientation: landscape), (max-width: 500px) {
+            /* landscape  it means the pixels from width == height */
+            /* Anything less than   landscape that body will change css to this
+            
+            body{
+              color: green;
+            }
+          }
+*/
